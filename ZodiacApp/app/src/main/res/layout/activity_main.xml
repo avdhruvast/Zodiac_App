@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/aries"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="callServer" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/aquarius"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="callServer" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView3"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/cancer"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="callServer" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView4"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/capricorn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="callServer" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView5"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/gemini"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="callServer" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView6"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/leo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="callServer" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal" >
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView7"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/libra"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="callServer" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView8"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/pisces"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="callServer" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView9"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/sagittarius"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="callServer" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal" >
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView10"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/scorpio"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="callServer" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView11"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/taurus"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="callServer" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView12"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/virgo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="callServer" />
+    </LinearLayout>
+</LinearLayout>
